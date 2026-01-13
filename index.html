@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Saul CyberSphere - Professional Digital Solutions</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --mustard: #FFB81C;
+      --crimson: #8B0000;
+      --charcoal: #1A1A1A;
+    }
+    body { font-family: 'Inter', sans-serif; }
+    .legal-font { font-family: 'Playfair Display', serif; }
+    .bg-mustard { background-color: var(--mustard); }
+    .text-mustard { color: var(--mustard); }
+    .bg-crimson { background-color: var(--crimson); }
+    .text-crimson { color: var(--crimson); }
+    .bg-charcoal { background-color: var(--charcoal); }
+    .border-mustard { border-color: var(--mustard); }
+    
+    /* Better Call Saul inspired accents */
+    .saul-gradient {
+      background: linear-gradient(135deg, var(--charcoal) 0%, #333333 100%);
+    }
+  </style>
+  <script type="importmap">
+  {
+    "imports": {
+      "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+      "react/": "https://esm.sh/react@^19.2.3/",
+      "react": "https://esm.sh/react@^19.2.3",
+      "react-router-dom": "https://esm.sh/react-router-dom@^7.11.0"
+    }
+  }
+  </script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-slate-50 text-slate-900">
+  <div id="root"></div>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
