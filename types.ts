@@ -9,15 +9,13 @@ export interface ServiceItem {
 
 export enum ServiceCategory {
   KRA = "KRA & Tax Services",
-  ECITIZEN = "e-Citizen & Civil (Good Conduct)",
-  NTSA = "Transport & NTSA (TIMS)",
-  HEALTH = "SHA (NHIF) & NSSF",
+  ECITIZEN = "e-Citizen & Civil",
+  NTSA = "Transport & NTSA",
   EDUCATION = "Education & TSC Portal",
-  ACADEMIC = "Academic & Research",
   PRINTING = "Printing & Finishing",
-  DESIGN = "CVs & Design",
-  TRAVEL = "Travel & SGR Booking",
-  UTILITY = "Utility & Finance"
+  PHOTO = "Photography",
+  TECHNICAL = "Tech & Software",
+  ACADEMIC = "Academic & Typing"
 }
 
 export interface NavItem {
